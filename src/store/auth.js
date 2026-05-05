@@ -1,0 +1,1 @@
+import {create} from 'zustand';import {supabase} from '../lib/supabase';export const useAuth=create(set=>({session:null,loading:true,init:async()=>{const {data}=await supabase.auth.getSession();set({session:data.session,loading:false});supabase.auth.onAuthStateChange((_e,s)=>set({session:s}))},login:e=>supabase.auth.signInWithOtp({email:e}),logout:()=>supabase.auth.signOut()}))
