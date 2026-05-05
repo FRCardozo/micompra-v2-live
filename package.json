@@ -1,7 +1,7 @@
 {
   "name": "micompra-v2-live",
   "private": true,
-  "version": "2.0.0",
+  "version": "2.1.0",
   "type": "module",
   "scripts": {"dev": "vite --host","build": "vite build","preview": "vite preview"},
   "dependencies": {"@supabase/supabase-js": "^2.45.0","lucide-react": "^0.417.0","react": "^18.3.1","react-dom": "^18.3.1","react-router-dom": "^6.26.0","zustand": "^4.5.4"},

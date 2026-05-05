@@ -62,10 +62,6 @@ export default function Home(){
                 <span className="text-[12px] bg-neutral-100 px-2 py-0.5 rounded-full shrink-0">⭐ {s.r}</span>
               </div>
               <p className="text-[13px] text-neutral-500 mt-0.5">{s.t} • Envío {s.e}</p>
-              <div className="flex gap-1.5 mt-2">
-                <span className="text-[11px] px-2 py-0.5 rounded-full bg-[#fff1f0] text-[#ff3b30]">Promo</span>
-                <span className="text-[11px] px-2 py-0.5 rounded-full bg-neutral-100">Gratis a $20k</span>
-              </div>
             </div>
           </div>
         </button>)}
